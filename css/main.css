@@ -14,6 +14,7 @@
   clear: both;
 }
 
+<<<<<<< HEAD
 
 .bg-blue{
 	background-color: #213344;
@@ -48,3 +49,32 @@ footer a,a:hover,a:focus{
 	text-decoration: none;
 	margin-right: 3%;
 }
+=======
+/* NAV */
+
+.bg-blue{
+	background-color: #293E52;
+}
+.text-nav{
+	color: #BCC3C7;
+}
+.active{
+	background-color: #213344;
+	color: white;
+}
+nav li a:hover{
+	color: white;
+}
+.nav > li > a:hover{
+	text-decoration: none;
+	background-color: #213344;
+}
+button span i{
+	color: #BCC3C7;
+}
+#293E52--BLUE
+#2Bb73--VERDE BACKGROUND
+#16BA9A--CORAZON
+#BCC3C7--COLOR LETRA
+#213344--ACTIVE BACKGROUND
+>>>>>>> 98c41cb47eaf61cd00b4e4f811850c48cde315e1
