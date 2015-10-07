@@ -14,47 +14,12 @@
   clear: both;
 }
 
-<<<<<<< HEAD
-
-.bg-blue{
-	background-color: #213344;
-}
-
-
-
-
-
-
-/*section-footer*/
-.after-footer{
-	background-color: #293e52;
-	color: #ffffff;
-}
-.after-footer ul{
-	list-style: none;
-	padding: 0;
-}
-.after-footer i{
-	color: white;
-}
-
-/*footer*/
-
-footer{
-	color: #ffffff; 
-	padding: 20px;
-}
-footer a,a:hover,a:focus{
-	color: #ffffff;
-	text-decoration: none;
-	margin-right: 3%;
-}
-=======
 /* NAV */
-
-.bg-blue{
-	background-color: #293E52;
+.nav-bar{
+	background-color:red;
+	
 }
+
 .text-nav{
 	color: #BCC3C7;
 }
@@ -72,9 +37,39 @@ nav li a:hover{
 button span i{
 	color: #BCC3C7;
 }
-#293E52--BLUE
+
+header{
+	padding: 5%;
+}
+
+/*#293E52--BLUE
 #2Bb73--VERDE BACKGROUND
 #16BA9A--CORAZON
 #BCC3C7--COLOR LETRA
-#213344--ACTIVE BACKGROUND
->>>>>>> 98c41cb47eaf61cd00b4e4f811850c48cde315e1
+#213344--ACTIVE BACKGROUND*/
+
+/*section-footer*/
+.after-footer{
+	background-color: #293e52;
+	color: #ffffff;
+}
+.after-footer ul{
+	list-style: none;
+	padding: 0;
+}
+.after-footer i{
+	color: white;
+}
+
+/*footer*/
+
+footer{
+	background-color: #213344;
+	color: #ffffff; 
+	padding: 20px;
+}
+footer a,a:hover,a:focus{
+	color: #ffffff;
+	text-decoration: none;
+	margin-right: 3%;
+}
