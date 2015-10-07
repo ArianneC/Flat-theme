@@ -13,3 +13,38 @@
 .clearfix:after {
   clear: both;
 }
+
+
+.bg-blue{
+	background-color: #213344;
+}
+
+
+
+
+
+
+/*section-footer*/
+.after-footer{
+	background-color: #293e52;
+	color: #ffffff;
+}
+.after-footer ul{
+	list-style: none;
+	padding: 0;
+}
+.after-footer i{
+	color: white;
+}
+
+/*footer*/
+
+footer{
+	color: #ffffff; 
+	padding: 20px;
+}
+footer a,a:hover,a:focus{
+	color: #ffffff;
+	text-decoration: none;
+	margin-right: 3%;
+}
