@@ -31,7 +31,19 @@ body > section {
     padding: 50px 0;
 }
 
-
+body{
+	 padding-top: 80px;
+  color: #34495e;
+  background: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+a:hover,
+a:focus {
+  color: #d9534f;
+  text-decoration: none;
+  
+}
 
 
 
@@ -51,7 +63,7 @@ body > section {
     margin-top: 27px;
 }
 .navbar-nav .active {
-	background-color:#2C3E50;
+	background-color:#0A122A;
 	border-radius: 4px;
 	color: #fff;
 }
@@ -72,15 +84,107 @@ body > section {
 .navbar-toggle .icon-bar {
 	background-color: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*slider*/
-.slider{
+#main-slider{
 	padding: 0;
-	margin: 0;
+	margin:0;
+	position: relative;
+	color: #fff;
+}
+#main-slider .carousel .carousel-content{
+	margin-top: 250px;
+}
+#main-slider .carousel h2 {
+  font-size: 2.5em;
 }
 
-.item1{
-	background-image: url("../images/slider/bg1.jpg");
+#main-slider .carousel .item {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0 !important;
+  opacity: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  display: block !important;
+  height: 600px;
+  /*-webkit-transition: opacity ease-in-out 500ms;
+  transition: opacity ease-in-out 500ms;*/
 }
+#main-slider .carousel .item:first-child {
+  top: auto;
+  position: relative;
+}
+#main-slider .carousel .item.active {
+  opacity: 1;
+  /*-webkit-transition: opacity ease-in-out 500ms;
+  transition: opacity ease-in-out 500ms;*/
+  z-index: 1;
+}
+#main-slider .previus,
+#main-slider .next {
+  position: absolute;
+  top: 44%;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  display: inline-block;
+  font-size: 24px;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius:50%;
+  z-index: 5;
+}
+#main-slider .previus {
+  left: 10px;
+}
+#main-slider .next {
+  right: 10px;
+}
+#main-slider .previus:hover,
+#main-slider .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 50%;
+}
+
+/*#main-slider .active .animation.animated-item-1 {
+  -webkit-animation: fadeInUp 300ms linear 300ms both;
+  animation: fadeInUp 300ms linear 300ms both;
+}
+#main-slider .active .animation.animated-item-2 {
+  -webkit-animation: fadeInUp 300ms linear 600ms both;
+  animation: fadeInUp 300ms linear 600ms both;
+}*/
 
 /*services*/
 #services{
@@ -114,29 +218,27 @@ body > section {
 	background-color: #F5F5F5;
     padding: 90px 0;
 }
-#proyects h5{
-	color: #000;
-	font-weight: 700;
+.btn-group{
+	margin-bottom: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.item-inner {
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 10px 10px 0;
+    margin:0;
+    position: relative;
+}
+.item-inner h5 {
+    background: #fff;
+    margin: 0;
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 14px;
+    color: #2c3e50;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+ }
 
 /*testimonial*/
 .testimonial{
