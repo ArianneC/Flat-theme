@@ -30,6 +30,9 @@
 .mb-10{
 	margin-bottom: 10px;
 }
+.mb-50{
+  margin-bottom: 50px;
+}
 .text-white{
 	color: #fff;
 }
@@ -49,6 +52,10 @@ a:hover,
 a:focus {
   color: #d9534f;
   text-decoration: none;
+}
+hr {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #fff;
 }
 
 /*header*/
@@ -174,6 +181,7 @@ a:focus {
 	display: block;
 	text-align: center;
 	margin-right: 10px;
+  color: #fff;
 }
 
 #services .media:hover .icon-services {
@@ -354,4 +362,7 @@ footer ul > li {
     margin-top: -20px;
     }
 
-   
+   /*services*/
+   .services blockquote small{
+    color:#999;
+   }
