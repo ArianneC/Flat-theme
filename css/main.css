@@ -42,6 +42,9 @@ body > section {
 .pl{
 	padding-left: 5%;
 }
+.pd{
+  padding: 2% 4%;
+}
 a{
 	text-decoration: none;
 }
@@ -322,6 +325,9 @@ ul.list-menu li::before{
 .progress{
 	height: 35px;
 }
+.progress{
+  background-color: white;
+}
 .about-image img{
 	border: 5px solid white;
 	border-radius: 50%;
@@ -336,25 +342,44 @@ ul.list-menu li::before{
 .text-nav{
   color: #BCC3C7;
 }
-.a-none-decoration{
-	text-decoration: none;
-}
-.bdr-radius i{
-	border-radius: 100%;
+.bdr-radius ul li a{
 	color: white;
-	padding: 4%;
 }
 .fb i{
-	background-color: #4D4DFF;
+  padding-top: 27%;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-color: #4c79cf;
+
 }
 .gp i{
-	background-color: red;
+  padding-top: 27%;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-color: #d9402a;
+
 }
 .twr i{
-	background-color: #00CCFF;
+  padding-top: 27%;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-color: #61cfff;
+
 }
 .in i{
-	background-color: #3366FF;
+  padding-top: 27%;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-color: #20a4d5;
+
 }
 
 
