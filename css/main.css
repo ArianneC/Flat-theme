@@ -183,11 +183,11 @@ blockquote small{
 
 }
 .after-footer .media-heading{
-	display: block;
-    font-weight: 400;
+  display: block;
+  font-weight: 400;
 }
 .muted{
-	    color: rgba(255, 255, 255, 0.8); 
+  color: rgba(255, 255, 255, 0.8); 
 }
 ul.list-menu li::before {
   content: "\f105";
@@ -207,6 +207,86 @@ ul.list-menu li::before{
 }
 
 
+
+body{
+	background-color: #E0E0D1;
+}
+/* section about*/
+.about{
+	background-color: #2ECC71;
+	padding: 3% 0% 3% 4%;
+}
+.progress{
+	height: 35px;
+}
+.about-image img{
+	border: 5px solid white;
+	border-radius: 50%;
+	margin-left: 15%;
+}
+.about li a:hover{
+	color: white;
+}
+.about li a{
+	text-decoration: none;
+}
+.pd-top{
+	padding-top: 5%;
+}
+.text-white{
+  color: white;
+}
+.text-nav{
+  color: #BCC3C7;
+}
+.text-blue{
+	color: #293E52;
+}
+.a-none-decoration{
+	text-decoration: none;
+}
+.bdr-radius i{
+	border-radius: 100%;
+}
+.fb i{
+	background-color: #4D4DFF;
+}
+.gp i{
+	background-color: red;
+}
+.twr i{
+	background-color: #00CCFF;
+}
+.in i{
+	background-color: #3366FF;
+}
+
+
+/* BLOG-ITEM */
+.bg-white{
+	background-color: white;
+}
+.blog-pages li{
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 3%;
+}
+.blog-pages li a{
+	text-decoration: none;
+	color: #BCC3C7;
+}
+.blog-pages li a:hover{
+	color: #2ECC71;
+}
+.blog-pages ul li::before{
+	color: #BCC3C7;
+}
+.blog-pages h4{
+	line-height: 1.8;
+}
+.blog-pages ul li button{
+	display: inline-block;
+}
 
 /*footer*/
 footer{
