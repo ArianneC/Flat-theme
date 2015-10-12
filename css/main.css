@@ -369,7 +369,6 @@ ul.list-menu li::before{
 }
 .blog-pages li{
 	list-style-type: none;
-	display: inline-block;
 
 }
 .blog-pages .icons a{
@@ -385,6 +384,14 @@ ul.list-menu li::before{
 }
 .blog-pages h4{
 	line-height: 1.8;
+}
+
+.pagination>li>a{
+	border: none;
+	color: #293e52;
+}
+.pagination>.active>a{
+	background-color: #293e52;
 }
 .tags{
 	display: inline-block;
